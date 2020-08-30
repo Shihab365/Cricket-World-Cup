@@ -10,7 +10,7 @@ Feature:
 *Prediction  
 *Live tv  
 *Live score  
-N.B. - Unofficial app.  
+Note - Unofficial app.  
 
 
 ## Demo
