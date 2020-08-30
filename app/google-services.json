@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "88220913761",
+    "firebase_url": "https://cricktestapp.firebaseio.com",
+    "project_id": "cricktestapp",
+    "storage_bucket": "cricktestapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88220913761:android:2100fe3118800f60",
+        "android_client_info": {
+          "package_name": "com.pro1.asus.cric_pro_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88220913761-t7bjslcu809p33r09e7ovlnv6l6vojh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pro1.asus.cric_pro_1",
+            "certificate_hash": "d8b564fe27cc3241bb9fc2b013722d13e20a4ee4"
+          }
+        },
+        {
+          "client_id": "88220913761-7i2ms4imh99scg03i5mmndrl7f4qj56r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvLpIZwjGprtkGrWhFQobxIdzAN1LVZ9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88220913761-7i2ms4imh99scg03i5mmndrl7f4qj56r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

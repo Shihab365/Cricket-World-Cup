@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tools:menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+            tools:showIn="navigation_view"
+>
+
+<group android:checkableBehavior="single">
+    <item
+            android:id="@+id/h_menu_id"
+            android:title="Home"
+            android:icon="@drawable/home_icon"
+    />
+    <item
+            android:id="@+id/tmatch_menu_id"
+            android:title="Today's Match"
+            android:icon="@drawable/todays_icon"
+    />
+    <item
+            android:id="@+id/umpire_menu_icon"
+            android:title="Umpire"
+            android:icon="@drawable/umpires_icon"
+    />
+    <item
+            android:id="@+id/stadium_menu_icon"
+            android:title="Stadium"
+            android:icon="@drawable/stadium_icon"
+    />
+</group>
+
+<item android:title="Others">
+
+    <menu>
+        <item
+                android:id="@+id/share_menu_id"
+                android:title="Share"
+                android:icon="@drawable/share_icon"
+        />
+        <item
+                android:id="@+id/feedback_menu_id"
+                android:title="Rating"
+                android:icon="@drawable/rating_icon"
+        />
+        <item
+                android:id="@+id/about_menu_id"
+                android:title="About"
+                android:icon="@drawable/about_icon"
+        />
+    </menu>
+</item>
+
+</tools:menu>

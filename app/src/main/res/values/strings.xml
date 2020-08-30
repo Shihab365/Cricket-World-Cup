@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cricket World Cup 2019</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="about_string">
+        In this app you will get everything in ICC mega event 2019.
+        Live score, Live Tv everything is here!! Do not forget to share and review.
+    </string>
+
+    <string-array name="team_name_auto">
+        <item>AFGHANISTAN</item>
+        <item>AUSTRALIA</item>
+        <item>BANGLADESH</item>
+        <item>ENGLAND</item>
+        <item>INDIA</item>
+        <item>PAKISTAN</item>
+        <item>NEW ZEALAND</item>
+        <item>SOUTH AFRICA</item>
+        <item>SRI LANKA</item>
+        <item>WEST INDIES</item>
+    </string-array>
+</resources>

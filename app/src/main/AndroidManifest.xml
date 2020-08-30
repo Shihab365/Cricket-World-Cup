@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.pro1.asus.cric_pro_1">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+    </uses-permission>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/logo"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/logo"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-1818607113375588~6221780612"/>
+
+        <activity android:name=".SplashActivity"
+        android:screenOrientation="portrait"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+        android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity
+                android:name=".TeamActivity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".FixtureActivity"
+        android:parentActivityName=".MainActivity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".PlayerActivity"
+        android:parentActivityName=".MainActivity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".WinTodayActivity"
+        android:parentActivityName=".MainActivity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".ScoreActivity"
+        android:parentActivityName=".MainActivity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".WatchActivity"
+        android:parentActivityName=".MainActivity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".Afg_player_Activity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".Aus_player_Activity"
+        android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".Ban_player_Activity"
+        android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".Eng_player_Activity"
+        android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".Ind_player_Activity"
+        android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".Nz_player_Activity"
+        android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".SA_player_Activity"
+        android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".SL_player_Activity"
+        android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".Wi_player_Activity"
+        android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".Pak_player_Activity"
+        android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity
+                android:name=".TvStreamActivity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".TMatchActivity"
+        android:parentActivityName=".ScoreActivity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".LscoreActivity"
+        android:parentActivityName=".ScoreActivity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".PTableActivity"
+        android:parentActivityName=".ScoreActivity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".StadiumActivity"
+        android:parentActivityName=".MainActivity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".AboutActivity"
+        android:parentActivityName=".MainActivity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".UmpireActivity"
+        android:parentActivityName=".MainActivity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".RatingActivity"
+        android:parentActivityName=".MainActivity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+        <activity android:name=".ShareActivity"
+        android:parentActivityName=".MainActivity"
+                  android:screenOrientation="portrait"
+        >
+        </activity>
+    </application>
+
+</manifest>
