@@ -11,7 +11,6 @@ Feature:
 *Live tv  
 *Live score  
 N.B. - Unofficial app.  
-https://www.youtube.com/watch?v=nmyN2sUGmD4
 
 
 ## Demo
